@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Monaco, monospace;
+}
+
+header{
+	background-image: url(../mount.png);
+	background-position: center center;
+	height: 100vh;
+
+
+}
+
+ul{
+	float: right;
+	list-style-type:  none;
+	margin: 8px; 
+	padding-top: 15px;
+
+
+}
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 20px;
+	border: 1px solid fill;
+	transition: 0.4s ease;
+
+}
+
+ul li a:hover{
+	background-color: #E5CC94;
+	color: #fff;
+}
+ul li a.active {
+  background-color: #F3A4A4;
+  color: white;
+}
+
+
+.title{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #000;
+	font-size: 40px;
+
+}

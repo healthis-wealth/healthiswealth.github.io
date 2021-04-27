@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Sunday;
+}
+
+
+header{
+	background-image: url(../sea.png);
+	background-position: center center;
+	height: 100vh;
+
+}
+
+ul{
+	float: right;
+	list-style-type:  none;
+	margin: 8px; 
+	padding-top: 15px;
+}
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 10px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.title{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #000;
+	font-size: 40px;
+
+}
+
+
+
